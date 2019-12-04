@@ -68,5 +68,22 @@ a{
     left: 10px;
     top: 5px;
     height: 30px;
+}
 
+.userProfileInfo{
+    height: 500px;
+    width: 250px;
+    overflow: hidden;
+    position: absolute;
+    border: 1px solid black;
+    left: 70px;
+}
+
+.userPhoto{
+    height: 140px;
+    border-radius: 100%;
+    position: relative;
+    top: -70px;
+
+    z-index: auto;
 }
