@@ -1,0 +1,72 @@
+.header{
+    height: 50px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.headerLinks{
+    position: absolute;
+    top: 10px;
+    right: 70px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.headerLinksImg{
+    padding: 0 10px 0 10px;
+    height: 25px;
+}
+
+.headerLogo{
+    position: absolute;
+    top: 10px;
+    left: 70px;
+}
+
+.headerLogoImg{
+    height: 35px;
+}
+
+.userFonImg{
+    height: 250px;
+    width: 900px;
+}
+
+.cameraImg{
+    position: absolute;
+    top: 60px;
+    right: 77px;
+    border: 1px solid #1B1C19;
+    background-color: #1B1C19;
+    border-radius: 100%;
+    height: 30px;
+}
+
+.addUserPost{
+    height: 40px;
+    width: 200px;
+    border-radius: 50px;
+    overflow: hidden;
+    background-color: #00BDAD;
+    color: white;
+    position: absolute;
+    top: 220px;
+    right: 70px;
+}
+
+.addUserText{
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    font-size: 13px;
+}
+
+.addUser{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    height: 30px;
+
+}
