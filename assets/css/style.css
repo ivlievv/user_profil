@@ -30,8 +30,9 @@ a{
 }
 
 .userFonImg{
+    z-index: auto;
     height: 250px;
-    width: 900px;
+    width: 1500px;
 }
 
 .cameraImg{
@@ -75,8 +76,9 @@ a{
     width: 250px;
     overflow: hidden;
     position: absolute;
-    border: 1px solid black;
+
     left: 70px;
+    background-color: lightsteelblue;
 }
 
 .userPhoto{
@@ -84,6 +86,100 @@ a{
     border-radius: 100%;
     position: relative;
     top: -70px;
-
+    left: 50px;
     z-index: auto;
+}
+
+.userName{
+    position: absolute;
+    left: 60px;
+    top: 100px;
+    font-family: 'Solway', serif;
+    font-size: 18px;
+}
+
+.userNavigation{
+    position: absolute;
+    left: 100px;
+    top: 130px;
+    font-family: 'Solway', serif;
+    font-size: 15px;
+}
+
+.userNavigationImg{
+    position: absolute;
+    top: 129px;
+    left: 75px;
+    height: 16px;
+}
+
+.userScope{
+    position: absolute;
+    top: 180px;
+    left: 40px;
+    font-family: 'Solway', serif;
+    font-size: 18px;
+}
+
+.plus{
+    position: absolute;
+    top: 211px;
+    left: 90px;
+    color: white;
+    font-family: 'Solway', serif;
+    font-size: 14px;
+}
+.scope{
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    color: white;
+    font-family: 'Solway', serif;
+    font-size: 25px;
+}
+
+.badgesText{
+    position: absolute;
+    top: 270px;
+    left: 40px;
+    font-family: 'Solway', serif;
+    font-size: 18px;
+}
+
+.viewProfile{
+    width: 250px;
+    height: 50px;
+    background-color: coral;
+    position: absolute;
+    bottom: 0;
+}
+
+.text{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+
+.link{
+    position: absolute;
+    bottom: 60px;
+    left: 50px;
+    color: grey;
+}
+
+.badgesImg{
+    height: 20px;
+}
+
+.badges{
+    display: flex;
+    overflow: hidden;
+}
+
+.badgesItem{
+    position: absolute;
+    padding: 15px;
+
+
+
 }
