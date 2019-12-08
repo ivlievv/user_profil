@@ -30,7 +30,8 @@ a{
 }
 
 .userFonImg{
-    z-index: auto;
+
+    z-index: 0;
     height: 250px;
     width: 1500px;
 }
@@ -87,7 +88,7 @@ a{
     position: relative;
     top: -70px;
     left: 50px;
-    z-index: auto;
+    z-index: 4;
 }
 
 .userName{
@@ -171,15 +172,24 @@ a{
     height: 20px;
 }
 
-.badges{
+.badgesItemUp{
     display: flex;
-    overflow: hidden;
+    justify-content: space-evenly;
+
 }
 
-.badgesItem{
-    position: absolute;
-    padding: 15px;
+.badgesItemDown{
+    display: flex;
+    justify-content: space-evenly;
 
+}
 
+.badgesName{
+    display: flex;
+
+}
+
+.badges{
+    align-items: flex-end;
 
 }
